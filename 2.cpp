@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+ // assume a modification : you cannot jump to certian steps, the are blocked // jumps steps <= k 
 class Solution {
 public:
     int f(int n)
