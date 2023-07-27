@@ -25,7 +25,7 @@ int fib_best(int n)
 {
   int prev=1;
   int prev2=0;
-  int cur;
+  int curr;
   for(int i=2;i<=n;i++)
     {
       curr=prev+prev2;
