@@ -32,7 +32,7 @@ int fib_best(int n)
       prev2=prev;
       prev=curr;
     }
-
+  if(n<=1)curr=n;
   return curr;
 }
 
